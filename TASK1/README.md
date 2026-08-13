@@ -1,13 +1,14 @@
 # NSA Challenge -TASK1
 
 
-# Objective: identify the suspicios artifact inside an ext2 filesystem image and provide its SHA-1 hash.
+# objective: identify the suspicious artifact inside an ext2 filesystem image and provide its SHA-1 hash.
 
 
-# step1 : file image.ext2   // identified the file is an filesystem image.
+# Step 1 : file image.ext2  // Identify the filesystem
 
-#step 2: sudo mkdir /mnt/TASK1    // create a moun point.
-#	sudo mount -o loop,ro image.ext2 /mnt/TASK1  
+
+#step 2: sudo mkdir /mnt/TASK1   // create a mount point.
+#	sudo mount -o loop,ro image.ext2 /mnt/TASK1
 
 
 #step 3: sudo cat /mnt/TASK1/root/.bash_history //analysis the filesystem
